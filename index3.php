@@ -17,7 +17,7 @@ if(isset($_GET["color"])){
 <body style="background-color:#<?=$color?>">
     <form action="index3.php" method="get">
         Color: <input type="text" name="color"><br>
-        <imput type="submit">
-</form>
+        <button type="submit">mygti</button>
+    </form>
 </body>
 </html>

@@ -1,5 +1,6 @@
 <?php
-$color = "FBF704";
+    header("Location: ./orange.php");
+    die;
 ?>
 
 <!DOCTYPE html>
@@ -10,7 +11,7 @@ $color = "FBF704";
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="backround-color:#<?= $color ?>;">
+<body style="background-color:yellow;">
 <a href="./orange.php">AnotherPage</a>
 
 </body>
