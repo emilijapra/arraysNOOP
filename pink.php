@@ -1,6 +1,9 @@
 <?php
-    header("Location: ./orange.php");
+if(isset($_GET["k"])){
+    header("Location: rose.php");
     die;
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +14,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color:yellow;">
+<body style="background-color:pink;">
+<form action="rose.php" method="get">
+        
+        <button type="submit">GO TO ROSE</button>
 
 
 </body>

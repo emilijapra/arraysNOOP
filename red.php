@@ -1,6 +1,8 @@
 <?php
-    header("Location: ./orange.php");
+if(isset($_GET["o"])){
+    header("Location: blue.php");
     die;
+}
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +13,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color:yellow;">
+<body style="background-color:red;">
+<a href= "red.php?o">red</a>
 
 
 </body>

@@ -1,6 +1,13 @@
 <?php
-    header("Location: ./orange.php");
+
+    header("Location: pink.php");
     die;
+
+echo $_SERVER["REQUEST_METHOD"];
+if($_SERVER["REQUEST_METHOD"] == "POST"){
+    header("Location: index7.php");
+    die;
+}
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +18,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="background-color:yellow;">
+<body style="background-color:rose;">
+<form action="pink.php" method="get">
+        
+        
 
 
 </body>
